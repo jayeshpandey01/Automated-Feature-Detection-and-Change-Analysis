@@ -1,0 +1,1138 @@
+{
+  "type": "FeatureCollection",
+  "name": "India Glaciers",
+  "generated_at": "2026-04-21T20:49:45.852750+00:00",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "IND_647cdf0d90c3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.56,
+          35.72
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_647cdf0d90c3",
+        "name": "Baltoro Glacier",
+        "region": "Karakoram",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 35.72,
+        "lon": 76.56,
+        "area_km2": 800.0,
+        "length_km": 62.0,
+        "elevation_m": 3390,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#1E90FF",
+          "marker_size": 20,
+          "marker_symbol": "triangle",
+          "popup_title": "Baltoro Glacier",
+          "popup_subtitle": "Karakoram | Ladakh",
+          "popup_area": "800.0 km\u00b2",
+          "popup_length": "62.0 km",
+          "popup_elev": "3390 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852150+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_0946c7547388",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.109,
+          35.421
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_0946c7547388",
+        "name": "Siachen Glacier",
+        "region": "Karakoram",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 35.421,
+        "lon": 77.109,
+        "area_km2": 700.0,
+        "length_km": 76.0,
+        "elevation_m": 5753,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Longest glacier in India",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#1E90FF",
+          "marker_size": 20,
+          "marker_symbol": "triangle",
+          "popup_title": "Siachen Glacier",
+          "popup_subtitle": "Karakoram | Ladakh",
+          "popup_area": "700.0 km\u00b2",
+          "popup_length": "76.0 km",
+          "popup_elev": "5753 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852109+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_07e5fbe2f0b4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.671,
+          35.918
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_07e5fbe2f0b4",
+        "name": "Biafo Glacier",
+        "region": "Karakoram",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 35.918,
+        "lon": 75.671,
+        "area_km2": 625.0,
+        "length_km": 63.0,
+        "elevation_m": 5128,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#1E90FF",
+          "marker_size": 20,
+          "marker_symbol": "triangle",
+          "popup_title": "Biafo Glacier",
+          "popup_subtitle": "Karakoram | Ladakh",
+          "popup_area": "625.0 km\u00b2",
+          "popup_length": "63.0 km",
+          "popup_elev": "5128 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852129+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_8e6b90d7de18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4,
+          36.063
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_8e6b90d7de18",
+        "name": "Hispar Glacier",
+        "region": "Karakoram",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 36.063,
+        "lon": 75.4,
+        "area_km2": 540.0,
+        "length_km": 53.0,
+        "elevation_m": 4900,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#1E90FF",
+          "marker_size": 20,
+          "marker_symbol": "triangle",
+          "popup_title": "Hispar Glacier",
+          "popup_subtitle": "Karakoram | Ladakh",
+          "popup_area": "540.0 km\u00b2",
+          "popup_length": "53.0 km",
+          "popup_elev": "4900 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852160+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_84a2554d7fac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.34,
+          35.48
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_84a2554d7fac",
+        "name": "Rimo Glacier",
+        "region": "Karakoram",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 35.48,
+        "lon": 77.34,
+        "area_km2": 400.0,
+        "length_km": 40.0,
+        "elevation_m": 5450,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#1E90FF",
+          "marker_size": 15,
+          "marker_symbol": "triangle",
+          "popup_title": "Rimo Glacier",
+          "popup_subtitle": "Karakoram | Ladakh",
+          "popup_area": "400.0 km\u00b2",
+          "popup_length": "40.0 km",
+          "popup_elev": "5450 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852170+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_09e2045dc5de",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.542,
+          27.706
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_09e2045dc5de",
+        "name": "Zemu Glacier",
+        "region": "Sikkim Himalaya",
+        "state": "Sikkim",
+        "country": "India",
+        "lat": 27.706,
+        "lon": 88.542,
+        "area_km2": 197.0,
+        "length_km": 26.0,
+        "elevation_m": 5190,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Longest in Eastern Himalayas",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#FF6347",
+          "marker_size": 15,
+          "marker_symbol": "triangle",
+          "popup_title": "Zemu Glacier",
+          "popup_subtitle": "Sikkim Himalaya | Sikkim",
+          "popup_area": "197.0 km\u00b2",
+          "popup_length": "26.0 km",
+          "popup_elev": "5190 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852182+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_646417434741",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.066,
+          30.924
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_646417434741",
+        "name": "Gangotri Glacier",
+        "region": "Garhwal",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.924,
+        "lon": 79.066,
+        "area_km2": 157.0,
+        "length_km": 30.0,
+        "elevation_m": 4000,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Source of Bhagirathi River",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#3CB371",
+          "marker_size": 15,
+          "marker_symbol": "triangle",
+          "popup_title": "Gangotri Glacier",
+          "popup_subtitle": "Garhwal | Uttarakhand",
+          "popup_area": "157.0 km\u00b2",
+          "popup_length": "30.0 km",
+          "popup_elev": "4000 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852192+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_7320c10a2416",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.622,
+          32.188
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_7320c10a2416",
+        "name": "Bara Shigri Glacier",
+        "region": "Spiti",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "lat": 32.188,
+        "lon": 77.622,
+        "area_km2": 130.0,
+        "length_km": 26.0,
+        "elevation_m": 3775,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Largest in Himachal Pradesh",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#00CED1",
+          "marker_size": 15,
+          "marker_symbol": "triangle",
+          "popup_title": "Bara Shigri Glacier",
+          "popup_subtitle": "Spiti | Himachal Pradesh",
+          "popup_area": "130.0 km\u00b2",
+          "popup_length": "26.0 km",
+          "popup_elev": "3775 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852249+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_89a96c812d76",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68,
+          32.486
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_89a96c812d76",
+        "name": "Samudra Tapu Glacier",
+        "region": "Spiti",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "lat": 32.486,
+        "lon": 77.68,
+        "area_km2": 99.0,
+        "length_km": 14.0,
+        "elevation_m": 4350,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#00CED1",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Samudra Tapu Glacier",
+          "popup_subtitle": "Spiti | Himachal Pradesh",
+          "popup_area": "99.0 km\u00b2",
+          "popup_length": "14.0 km",
+          "popup_elev": "4350 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852268+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_bc3115549357",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.83,
+          33.574
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_bc3115549357",
+        "name": "Drang-Drung Glacier",
+        "region": "Zanskar",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 33.574,
+        "lon": 76.83,
+        "area_km2": 90.0,
+        "length_km": 23.0,
+        "elevation_m": 3750,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Feeds Stod River",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#6495ED",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Drang-Drung Glacier",
+          "popup_subtitle": "Zanskar | Ladakh",
+          "popup_area": "90.0 km\u00b2",
+          "popup_length": "23.0 km",
+          "popup_elev": "3750 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852283+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_347026b7927d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.032,
+          30.432
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_347026b7927d",
+        "name": "Milam Glacier",
+        "region": "Kumaon",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.432,
+        "lon": 80.032,
+        "area_km2": 83.0,
+        "length_km": 16.0,
+        "elevation_m": 3450,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#2E8B57",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Milam Glacier",
+          "popup_subtitle": "Kumaon | Uttarakhand",
+          "popup_area": "83.0 km\u00b2",
+          "popup_length": "16.0 km",
+          "popup_elev": "3450 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852200+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_2ed392340c1c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.146,
+          27.696
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_2ed392340c1c",
+        "name": "Kangchenjunga Glacier",
+        "region": "Sikkim",
+        "state": "Sikkim",
+        "country": "India",
+        "lat": 27.696,
+        "lon": 88.146,
+        "area_km2": 55.0,
+        "length_km": 16.0,
+        "elevation_m": 5140,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Near 3rd highest peak",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#FF4500",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Kangchenjunga Glacier",
+          "popup_subtitle": "Sikkim | Sikkim",
+          "popup_area": "55.0 km\u00b2",
+          "popup_length": "16.0 km",
+          "popup_elev": "5140 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852305+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_0b531e5346e0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.527,
+          27.899
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_0b531e5346e0",
+        "name": "Kangto Glacier",
+        "region": "Arunachal Pradesh",
+        "state": "Arunachal Pradesh",
+        "country": "India",
+        "lat": 27.899,
+        "lon": 92.527,
+        "area_km2": 45.0,
+        "length_km": 12.0,
+        "elevation_m": 4800,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#9370DB",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Kangto Glacier",
+          "popup_subtitle": "Arunachal Pradesh | Arunachal Pradesh",
+          "popup_area": "45.0 km\u00b2",
+          "popup_length": "12.0 km",
+          "popup_elev": "4800 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852338+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_fcb30daf90e0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.255,
+          32.556
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_fcb30daf90e0",
+        "name": "Gepang Gath Glacier",
+        "region": "Lahaul",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "lat": 32.556,
+        "lon": 77.255,
+        "area_km2": 40.0,
+        "length_km": 11.0,
+        "elevation_m": 4270,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#20B2AA",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Gepang Gath Glacier",
+          "popup_subtitle": "Lahaul | Himachal Pradesh",
+          "popup_area": "40.0 km\u00b2",
+          "popup_length": "11.0 km",
+          "popup_elev": "4270 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852264+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_a78b1eea4007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.399,
+          27.939
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_a78b1eea4007",
+        "name": "Gorichen Glacier",
+        "region": "Arunachal Pradesh",
+        "state": "Arunachal Pradesh",
+        "country": "India",
+        "lat": 27.939,
+        "lon": 92.399,
+        "area_km2": 38.0,
+        "length_km": 10.0,
+        "elevation_m": 4700,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Near highest peak in AP",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#9370DB",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Gorichen Glacier",
+          "popup_subtitle": "Arunachal Pradesh | Arunachal Pradesh",
+          "popup_area": "38.0 km\u00b2",
+          "popup_length": "10.0 km",
+          "popup_elev": "4700 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852346+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_7eda4acfe9ed",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.062,
+          34.062
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_7eda4acfe9ed",
+        "name": "Parkachik Glacier",
+        "region": "Zanskar",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 34.062,
+        "lon": 76.062,
+        "area_km2": 31.0,
+        "length_km": 9.0,
+        "elevation_m": 3800,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#6495ED",
+          "marker_size": 10,
+          "marker_symbol": "triangle",
+          "popup_title": "Parkachik Glacier",
+          "popup_subtitle": "Zanskar | Ladakh",
+          "popup_area": "31.0 km\u00b2",
+          "popup_length": "9.0 km",
+          "popup_elev": "3800 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852300+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_1d85318e1a85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.073,
+          28.001
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_1d85318e1a85",
+        "name": "Lhonak Glacier",
+        "region": "Sikkim",
+        "state": "Sikkim",
+        "country": "India",
+        "lat": 28.001,
+        "lon": 88.073,
+        "area_km2": 30.0,
+        "length_km": 12.0,
+        "elevation_m": 4700,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Glacial lake outburst flood risk",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#FF4500",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Lhonak Glacier",
+          "popup_subtitle": "Sikkim | Sikkim",
+          "popup_area": "30.0 km\u00b2",
+          "popup_length": "12.0 km",
+          "popup_elev": "4700 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852324+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_405eef231937",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.139,
+          27.98
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_405eef231937",
+        "name": "South Lhonak Glacier",
+        "region": "Sikkim",
+        "state": "Sikkim",
+        "country": "India",
+        "lat": 27.98,
+        "lon": 88.139,
+        "area_km2": 28.0,
+        "length_km": 11.0,
+        "elevation_m": 4800,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#FF4500",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "South Lhonak Glacier",
+          "popup_subtitle": "Sikkim | Sikkim",
+          "popup_area": "28.0 km\u00b2",
+          "popup_length": "11.0 km",
+          "popup_elev": "4800 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852329+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_339bd69ee420",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.336,
+          31.013
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_339bd69ee420",
+        "name": "Bandarpunch Glacier",
+        "region": "Garhwal",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 31.013,
+        "lon": 78.336,
+        "area_km2": 25.0,
+        "length_km": 12.0,
+        "elevation_m": 4100,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#3CB371",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Bandarpunch Glacier",
+          "popup_subtitle": "Garhwal | Uttarakhand",
+          "popup_area": "25.0 km\u00b2",
+          "popup_length": "12.0 km",
+          "popup_elev": "4100 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852236+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_a720f99f60ca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.337,
+          32.519
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_a720f99f60ca",
+        "name": "Kulti Glacier",
+        "region": "Lahaul",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "lat": 32.519,
+        "lon": 77.337,
+        "area_km2": 24.0,
+        "length_km": 9.0,
+        "elevation_m": 4470,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#20B2AA",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Kulti Glacier",
+          "popup_subtitle": "Lahaul | Himachal Pradesh",
+          "popup_area": "24.0 km\u00b2",
+          "popup_length": "9.0 km",
+          "popup_elev": "4470 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852254+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_f12aeee2f84b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.542,
+          33.651
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_f12aeee2f84b",
+        "name": "Pensilungpa Glacier",
+        "region": "Zanskar",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 33.651,
+        "lon": 76.542,
+        "area_km2": 22.0,
+        "length_km": 11.0,
+        "elevation_m": 4250,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#6495ED",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Pensilungpa Glacier",
+          "popup_subtitle": "Zanskar | Ladakh",
+          "popup_area": "22.0 km\u00b2",
+          "popup_length": "11.0 km",
+          "popup_elev": "4250 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852290+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_b2a79080f531",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.273,
+          30.896
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_b2a79080f531",
+        "name": "Satopanth Glacier",
+        "region": "Garhwal",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.896,
+        "lon": 79.273,
+        "area_km2": 21.0,
+        "length_km": 14.0,
+        "elevation_m": 4400,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#3CB371",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Satopanth Glacier",
+          "popup_subtitle": "Garhwal | Uttarakhand",
+          "popup_area": "21.0 km\u00b2",
+          "popup_length": "14.0 km",
+          "popup_elev": "4400 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852222+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_c5a8a90e3c9a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.882,
+          30.843
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_c5a8a90e3c9a",
+        "name": "Khatling Glacier",
+        "region": "Garhwal",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.843,
+        "lon": 78.882,
+        "area_km2": 21.0,
+        "length_km": 8.0,
+        "elevation_m": 3800,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": "Source of Bhilangana River",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#3CB371",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Khatling Glacier",
+          "popup_subtitle": "Garhwal | Uttarakhand",
+          "popup_area": "21.0 km\u00b2",
+          "popup_length": "8.0 km",
+          "popup_elev": "3800 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852228+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_045af61a99e6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.905,
+          30.549
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_045af61a99e6",
+        "name": "Dunagiri Glacier",
+        "region": "Kumaon",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.549,
+        "lon": 79.905,
+        "area_km2": 18.0,
+        "length_km": 10.0,
+        "elevation_m": 4100,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#2E8B57",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Dunagiri Glacier",
+          "popup_subtitle": "Kumaon | Uttarakhand",
+          "popup_area": "18.0 km\u00b2",
+          "popup_length": "10.0 km",
+          "popup_elev": "4100 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852241+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_4eefc63d956d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.567,
+          32.228
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_4eefc63d956d",
+        "name": "Chhota Shigri Glacier",
+        "region": "Spiti",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "lat": 32.228,
+        "lon": 77.567,
+        "area_km2": 15.0,
+        "length_km": 9.0,
+        "elevation_m": 4050,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#00CED1",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Chhota Shigri Glacier",
+          "popup_subtitle": "Spiti | Himachal Pradesh",
+          "popup_area": "15.0 km\u00b2",
+          "popup_length": "9.0 km",
+          "popup_elev": "4050 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852259+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_889d2c209ebf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.31,
+          33.64
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_889d2c209ebf",
+        "name": "Shafat Glacier",
+        "region": "Zanskar",
+        "state": "Ladakh",
+        "country": "India",
+        "lat": 33.64,
+        "lon": 76.31,
+        "area_km2": 14.0,
+        "length_km": 8.0,
+        "elevation_m": 4500,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#6495ED",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Shafat Glacier",
+          "popup_subtitle": "Zanskar | Ladakh",
+          "popup_area": "14.0 km\u00b2",
+          "popup_length": "8.0 km",
+          "popup_elev": "4500 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852295+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_e86b925c8d00",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.993,
+          32.428
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_e86b925c8d00",
+        "name": "Sonapani Glacier",
+        "region": "Lahaul",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "lat": 32.428,
+        "lon": 76.993,
+        "area_km2": 11.0,
+        "length_km": 8.0,
+        "elevation_m": 3900,
+        "type": "Valley",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#20B2AA",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Sonapani Glacier",
+          "popup_subtitle": "Lahaul | Himachal Pradesh",
+          "popup_area": "11.0 km\u00b2",
+          "popup_length": "8.0 km",
+          "popup_elev": "3900 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852277+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_0f50f3795745",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.068,
+          30.78
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_0f50f3795745",
+        "name": "Chorabari Glacier",
+        "region": "Garhwal",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.78,
+        "lon": 79.068,
+        "area_km2": 7.0,
+        "length_km": 2.0,
+        "elevation_m": 3900,
+        "type": "Cirque",
+        "status": "Retreating",
+        "note": "Source of Mandakini River",
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#3CB371",
+          "marker_size": 7,
+          "marker_symbol": "triangle",
+          "popup_title": "Chorabari Glacier",
+          "popup_subtitle": "Garhwal | Uttarakhand",
+          "popup_area": "7.0 km\u00b2",
+          "popup_length": "2.0 km",
+          "popup_elev": "3900 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852216+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IND_51b21f504ea3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.979,
+          30.286
+        ]
+      },
+      "properties": {
+        "glacier_id": "IND_51b21f504ea3",
+        "name": "Pindari Glacier",
+        "region": "Kumaon",
+        "state": "Uttarakhand",
+        "country": "India",
+        "lat": 30.286,
+        "lon": 79.979,
+        "area_km2": 3.0,
+        "length_km": 3.0,
+        "elevation_m": 3820,
+        "type": "Cirque",
+        "status": "Retreating",
+        "note": null,
+        "source": "Curated_Inventory",
+        "map": {
+          "color": "#2E8B57",
+          "marker_size": 5,
+          "marker_symbol": "triangle",
+          "popup_title": "Pindari Glacier",
+          "popup_subtitle": "Kumaon | Uttarakhand",
+          "popup_area": "3.0 km\u00b2",
+          "popup_length": "3.0 km",
+          "popup_elev": "3820 m"
+        },
+        "survey_date": null,
+        "processed_at": "2026-04-21T20:49:45.852208+00:00"
+      }
+    }
+  ]
+}

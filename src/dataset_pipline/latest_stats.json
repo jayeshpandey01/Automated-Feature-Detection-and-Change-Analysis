@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-04-21T20:49:45.852750+00:00",
+  "summary": {
+    "total_glaciers": 29,
+    "total_area_km2": 4269.0,
+    "average_area_km2": 147.21,
+    "largest_glacier": "Baltoro Glacier",
+    "states_covered": 5,
+    "regions_covered": 9
+  },
+  "by_region": {
+    "Karakoram": {
+      "count": 5,
+      "area": 3065.0
+    },
+    "Sikkim Himalaya": {
+      "count": 1,
+      "area": 197.0
+    },
+    "Garhwal": {
+      "count": 5,
+      "area": 231.0
+    },
+    "Spiti": {
+      "count": 3,
+      "area": 244.0
+    },
+    "Zanskar": {
+      "count": 4,
+      "area": 157.0
+    },
+    "Kumaon": {
+      "count": 3,
+      "area": 104.0
+    },
+    "Sikkim": {
+      "count": 3,
+      "area": 113.0
+    },
+    "Arunachal Pradesh": {
+      "count": 2,
+      "area": 83.0
+    },
+    "Lahaul": {
+      "count": 3,
+      "area": 75.0
+    }
+  },
+  "by_state": {
+    "Ladakh": {
+      "count": 9,
+      "area": 3222.0
+    },
+    "Sikkim": {
+      "count": 4,
+      "area": 310.0
+    },
+    "Uttarakhand": {
+      "count": 8,
+      "area": 335.0
+    },
+    "Himachal Pradesh": {
+      "count": 6,
+      "area": 319.0
+    },
+    "Arunachal Pradesh": {
+      "count": 2,
+      "area": 83.0
+    }
+  },
+  "by_source": {
+    "Curated_Inventory": 29
+  }
+}

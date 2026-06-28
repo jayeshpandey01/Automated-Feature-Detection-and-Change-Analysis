@@ -1,0 +1,9 @@
+pymongo
+requests
+pandas
+python-dotenv
+schedule
+fastapi
+uvicorn
+python-multipart
+matplotlib
