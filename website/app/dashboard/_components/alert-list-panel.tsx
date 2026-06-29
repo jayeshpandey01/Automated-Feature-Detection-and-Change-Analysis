@@ -74,7 +74,7 @@ export function AlertListPanel({
       initial={{ x: -20, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.35, delay: 0.1 }}
-      className="flex flex-col h-full w-[340px] flex-shrink-0 bg-[rgba(12,14,28,0.92)] border-r border-white/[0.07]"
+      className="flex flex-col h-full w-[340px] flex-shrink-0 bg-background/20 backdrop-blur-md border-r border-border/20"
     >
       {/* Top bar */}
       <div className="px-4 pt-5 pb-3 flex-shrink-0">
@@ -86,10 +86,10 @@ export function AlertListPanel({
             <button
               onClick={() => setShowDateFilter((p) => !p)}
               className={cn(
-                "w-7 h-7 rounded-lg flex items-center justify-center transition-all",
+                "w-7 h-7 rounded-lg flex items-center justify-center transition-all border",
                 showDateFilter
-                  ? "text-neon-cyan bg-neon-cyan/10"
-                  : "text-muted-foreground hover:text-foreground hover:bg-white/5"
+                  ? "text-foreground bg-white/10 border-white/15"
+                  : "text-muted-foreground hover:text-foreground hover:bg-white/5 border-transparent"
               )}
               title="Filter by date range"
             >
@@ -127,7 +127,7 @@ export function AlertListPanel({
                       onChange={(e) =>
                         onDateRangeChange(e.target.value, dateRange.endDate)
                       }
-                      className="w-full bg-black/40 border border-white/[0.08] rounded-lg py-1.5 px-2 text-[11px] text-foreground font-mono focus:border-neon-cyan/40 focus:outline-none transition-colors [color-scheme:dark]"
+                      className="w-full bg-black/40 border border-white/10 rounded-lg py-1.5 px-2 text-[11px] text-foreground focus:border-white/30 focus:outline-none transition-colors [color-scheme:dark]"
                     />
                   </div>
                   <div className="flex-1">
@@ -140,7 +140,7 @@ export function AlertListPanel({
                       onChange={(e) =>
                         onDateRangeChange(dateRange.startDate, e.target.value)
                       }
-                      className="w-full bg-black/40 border border-white/[0.08] rounded-lg py-1.5 px-2 text-[11px] text-foreground font-mono focus:border-neon-cyan/40 focus:outline-none transition-colors [color-scheme:dark]"
+                      className="w-full bg-black/40 border border-white/10 rounded-lg py-1.5 px-2 text-[11px] text-foreground focus:border-white/30 focus:outline-none transition-colors [color-scheme:dark]"
                     />
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export function AlertListPanel({
             placeholder="Search grids..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full bg-white/[0.04] border border-white/[0.08] rounded-xl py-2.5 pl-9 pr-8 text-[12px] text-foreground placeholder:text-muted-foreground/50 focus:border-neon-cyan/40 focus:outline-none transition-colors font-mono"
+            className="w-full bg-white/[0.04] border border-white/[0.08] rounded-xl py-2.5 pl-9 pr-8 text-[12px] text-foreground placeholder:text-muted-foreground/50 focus:border-white/20 focus:outline-none transition-colors"
           />
           {search && (
             <button

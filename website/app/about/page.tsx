@@ -8,6 +8,27 @@ import contentData from "@/lib/content.json"
 
 const aboutData = contentData.about
 
+const teamMembers = [
+  {
+    name: "Jayesh Pandey",
+    role: "Lead Developer",
+    image: "/profile/jayesh_pandey.jpg",
+    bio: "Lead software architect driving the design and integration of real-time monitoring and database persistence layer."
+  },
+  {
+    name: "Kanishk Vadge",
+    role: "AI & ML Researcher",
+    image: "/profile/kanishk_vadge.jpeg",
+    bio: "Machine learning research lead specializing in multispectral data modeling, feature detection, and automated hazard forecasting."
+  },
+  {
+    name: "Prerna Thok",
+    role: "Data Analyst & Researcher",
+    image: "/profile/prerna_thok.jpeg",
+    bio: "Geospatial data researcher focused on analyzing glacier historical metadata, change-detection trends, and risk metrics."
+  }
+]
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-background">
@@ -89,6 +110,56 @@ export default function AboutPage() {
                 <div className={`relative aspect-video overflow-hidden ${index % 2 === 1 ? "md:order-1" : ""}`}>
                   <Image src={(milestone as any).image || aboutData.portraitImage} alt={milestone.title} fill className="object-cover" />
                 </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="py-20 bg-[#070913]/40 border-y border-white/5">
+        <div className="container mx-auto px-6">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-serif text-4xl md:text-5xl font-light tracking-wide text-center mb-20"
+          >
+            RESEARCH & DEVELOPMENT TEAM
+          </motion.h2>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {teamMembers.map((member, index) => (
+              <motion.div
+                key={member.name}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="group relative bg-white/[0.02] border border-white/5 hover:border-neon-cyan/30 rounded-2xl p-6 transition-all duration-500 hover:shadow-[0_0_30px_rgba(0,243,255,0.05)] flex flex-col items-center text-center"
+              >
+                {/* Image Container with Neon Outer Ring */}
+                <div className="relative w-36 h-36 rounded-full overflow-hidden mb-6 border-2 border-white/10 group-hover:border-neon-cyan transition-colors duration-500 shadow-xl">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110 filter grayscale group-hover:grayscale-0"
+                  />
+                </div>
+
+                <h3 className="text-lg font-serif font-semibold text-white mb-1 group-hover:text-neon-cyan transition-colors">
+                  {member.name}
+                </h3>
+                
+                <span className="text-xs text-neon-cyan/80 font-mono tracking-widest uppercase mb-4">
+                  {member.role}
+                </span>
+
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {member.bio}
+                </p>
               </motion.div>
             ))}
           </div>

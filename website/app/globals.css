@@ -171,3 +171,72 @@ html {
   color: #00f3ff !important;
 }
 
+/* ────────────────────────────────────────────────
+   Print media overrides
+   ──────────────────────────────────────────────── */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  
+  .print-report-container, 
+  .print-report-container * {
+    visibility: visible !important;
+  }
+
+  .print-report-container {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 24px !important;
+    box-shadow: none !important;
+    border: none !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Force print-friendly colors */
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  h1, h2, h3, h4, h5, p, span, div, strong, label {
+    color: #000000 !important;
+  }
+
+  .text-muted-foreground {
+    color: #4b5563 !important;
+  }
+
+  /* Retain high-contrast coloring on critical hazard labels */
+  .text-red-400 {
+    color: #b91c1c !important;
+    font-weight: bold !important;
+  }
+
+  .bg-red-500\/10 {
+    background-color: #fee2e2 !important;
+    border: 1px solid #f87171 !important;
+  }
+
+  /* Hide print-unfriendly items in the report container */
+  .print-report-container button,
+  .print-report-container input,
+  .print-report-container .actions-btn,
+  .print-report-container [role="tooltip"],
+  .print-report-container .hide-print {
+    display: none !important;
+  }
+
+  /* Ensure charts rendering containers display correctly */
+  .recharts-responsive-container {
+    max-height: 250px !important;
+    overflow: visible !important;
+  }
+}
+

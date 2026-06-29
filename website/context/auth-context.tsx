@@ -54,11 +54,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             console.error("Firebase auth sync failed:", e);
           }
         }
+        setLoading(false);
       });
       return () => unsubscribe();
+    } else {
+      setLoading(false);
     }
-    
-    setLoading(false);
   }, []);
 
   const loginWithFirebaseToken = async (token: string): Promise<boolean> => {

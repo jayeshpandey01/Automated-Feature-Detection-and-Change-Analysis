@@ -17,13 +17,13 @@ const levelConfig: Record<
   CRITICAL: {
     label: "#CRITICAL",
     classes:
-      "bg-red-500/15 text-red-400 border border-red-500/30 shadow-[0_0_8px_rgba(239,68,68,0.25)]",
-    dot: "bg-red-400 animate-pulse",
+      "bg-red-500/10 text-red-400 border border-red-500/20",
+    dot: "bg-red-400",
   },
   HIGH: {
     label: "#HIGH",
     classes:
-      "bg-orange-500/15 text-orange-400 border border-orange-500/30 shadow-[0_0_8px_rgba(249,115,22,0.2)]",
+      "bg-orange-500/10 text-orange-400 border border-orange-500/20",
     dot: "bg-orange-400",
   },
   MODERATE: {

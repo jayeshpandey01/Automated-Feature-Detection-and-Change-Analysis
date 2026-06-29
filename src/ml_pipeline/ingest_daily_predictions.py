@@ -42,7 +42,7 @@ PRED_COL   = "hazard_predictions"
 
 START_DATE = "2026-01-01"
 # Archive API lags 1-2 days behind — use yesterday to avoid 400 errors
-END_DATE   = (date.today() - timedelta(days=2)).strftime("%Y-%m-%d")
+END_DATE   = date.today().strftime("%Y-%m-%d")
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "llama3.2:1b"

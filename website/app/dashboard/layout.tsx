@@ -35,7 +35,7 @@ export default function DashboardLayout({
   if (!user) return null
 
   return (
-    <div className="h-screen w-screen overflow-hidden bg-background flex">
+    <div className="h-screen w-screen overflow-hidden bg-transparent flex">
       {children}
     </div>
   )

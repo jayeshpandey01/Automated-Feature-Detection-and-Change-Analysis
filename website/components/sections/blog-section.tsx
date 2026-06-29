@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import contentData from "@/lib/content.json"
 
 export function BlogSection() {
-  const { blog } = contentData
+  const blog = (contentData as any).blog
 
   if (!blog) return null
 

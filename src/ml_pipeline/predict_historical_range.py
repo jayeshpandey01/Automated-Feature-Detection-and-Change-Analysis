@@ -69,7 +69,7 @@ def main():
     
     # Range is Jan 1st, 2026 to today (June 27, 2026)
     start_date = "2026-01-01"
-    end_date = "2026-06-27"
+    end_date = "2026-06-29"
     
     all_predictions = []
     

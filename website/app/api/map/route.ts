@@ -8,6 +8,7 @@ import path from 'path';
 // Robust path helper to locate data files
 function getGeoJsonFromDisk() {
   const paths = [
+    path.join(process.cwd(), "..", "output", "latest_geojson.json"),
     path.join(process.cwd(), "..", "src", "dataset_pipline", "output", "latest_geojson.json"),
     path.join(process.cwd(), "..", "src", "dataset_pipline", "latest_geojson.json"),
     path.join(process.cwd(), "src", "dataset_pipline", "output", "latest_geojson.json"),
@@ -45,13 +46,7 @@ function getGeoJsonFromDisk() {
 }
 
 export async function GET() {
-  // 1. Try file system first (most reliable & fresh for local runs)
-  const fileData = getGeoJsonFromDisk();
-  if (fileData && fileData.length > 0) {
-    return NextResponse.json(fileData);
-  }
-
-  // 2. Fallback to MongoDB (using shared singleton)
+  // 1. Try MongoDB first (using shared singleton)
   try {
     const client = await clientPromise;
     const db = client.db('glacier_india_db');
@@ -59,27 +54,36 @@ export async function GET() {
     // Fetch all processed glaciers
     const glaciers = await db.collection('glaciers_processed').find().toArray();
     
-    // Map them to a safe JSON format for the frontend
-    const mapData = glaciers.map((g) => {
-      return {
-        id: g.glacier_id,
-        name: g.name || g.glacier_id,
-        lat: g.lat,
-        lon: g.lon,
-        area_km2: g.area_km2,
-        status: g.status || g.change_analysis?.change_status || 'Unknown',
-        confidence: g.ai_analysis?.confidence || 0.95,
-        region: g.region,
-        state: g.state,
-        ai_analysis: g.ai_analysis || null,
-      };
-    }).filter(g => g.lat && g.lon); // Only include those with coordinates
+    if (glaciers && glaciers.length > 0) {
+      // Map them to a safe JSON format for the frontend
+      const mapData = glaciers.map((g) => {
+        return {
+          id: g.glacier_id,
+          name: g.name || g.glacier_id,
+          lat: g.lat,
+          lon: g.lon,
+          area_km2: g.area_km2,
+          status: g.status || g.change_analysis?.change_status || 'Unknown',
+          confidence: g.ai_analysis?.confidence || 0.95,
+          region: g.region,
+          state: g.state,
+          ai_analysis: g.ai_analysis || null,
+        };
+      }).filter(g => g.lat && g.lon); // Only include those with coordinates
 
-    return NextResponse.json(mapData);
+      return NextResponse.json(mapData);
+    }
   } catch (error) {
-    console.error("Failed to fetch map data from MongoDB (using mock fallback):", error);
-    
-    // MOCK DATA FALLBACK for when MongoDB is offline
+    console.error("Failed to fetch map data from MongoDB (falling back to file system):", error);
+  }
+
+  // 2. Try file system fallback (most reliable & fresh for local runs if DB is empty/offline)
+  const fileData = getGeoJsonFromDisk();
+  if (fileData && fileData.length > 0) {
+    return NextResponse.json(fileData);
+  }
+
+  // 3. MOCK DATA FALLBACK for when MongoDB and files are both offline/empty
     const mockMapData = [
       {
         id: "mock-1",
@@ -132,6 +136,5 @@ export async function GET() {
     ];
 
     return NextResponse.json(mockMapData);
-  }
   // NOTE: No client.close() — singleton manages lifecycle
 }

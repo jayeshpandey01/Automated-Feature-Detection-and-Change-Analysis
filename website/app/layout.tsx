@@ -15,9 +15,14 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'Maxime Perrolle | Wood Artist',
-  description: 'Discover the artistry of Maxime Perrolle, a wood artist whose work embodies a deep connection to nature and craftsmanship using the ancient Shou Sugi Ban technique.',
-  keywords: ['wood art', 'Shou Sugi Ban', 'sculpture', 'craftsmanship', 'Maxime Perrolle'],
+  title: 'GlacioWatch | Himalayan Glacier Monitoring',
+  description: 'Real-time AI-powered monitoring and hazard prediction for Himalayan glaciers. Track glacier retreat, GLOF risk, and climate impact across India.',
+  keywords: ['glacier monitoring', 'GLOF', 'Himalayan glaciers', 'hazard prediction', 'remote sensing', 'GlacioWatch'],
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon-dark-32x32.png',
+    apple: '/apple-icon.png',
+  },
 }
 
 import { AuthProvider } from '@/context/auth-context'
